@@ -1,4 +1,4 @@
-div {
+.aligntop, .rightjust {
     /* border: 1 px solid red*/
     width: 49%;
     display: inline-block;
@@ -21,4 +21,23 @@ h1, p {
 table {
     width: 100%; 
 text-align: center;
+}
+/*allows you to consolidate a style too multiple elements in a table.*/
+table, tr, th, td {
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+
+td {
+    width: 20%;
+    text-align:center;
+}
+.role {
+    font-weight: bold;
+}
+.company {
+    font-style: italic;
+}
+.job-max {
+    color: blue
 }
